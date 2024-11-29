@@ -84,8 +84,7 @@
       (error) => {
         console.error("Errore nella geolocalizzazione:", error);
         document.getElementById('image-widget').innerHTML = `
-  <p>You may want to allow location access to display the weather-specific image.</p>
-  <img src="https://i.ibb.co/1QbkrC1/406-F6892-81-B0-4008-8297-03-E494653697.jpg" alt="Default Day Image">
+  <img src="https://i.ibb.co/1QbkrC1/406-F6892-81-B0-4008-8297-03-E494653697.jpg" alt="Default Day Image"><p>Did you know? If you allow location access, the image will change based on the time of day🌜and weather conditions!🌤️</p>
 `;
       }
     );
